@@ -1,7 +1,7 @@
 #include "DFRobot_PH.h"
 #include <EEPROM.h>
 
-#define PH_PIN 34  // Use ADC-capable pin: 32, 33, 34, 35 on ESP32
+#define PH_PIN 35  // Use ADC-capable pin: 32, 33, 34, 35 on ESP32
 
 float voltage, phValue, temperature = 25;
 DFRobot_PH ph;  // ✅ Declare the ph object globally
